@@ -74,7 +74,7 @@ public class MaquinaDispensadora  {
         } else if (metodo.equals("Efectivo")) {
             System.out.print("Por favor, ingresa la cantidad de dinero: ");
             double efectivo = scanner.nextDouble();
-            scanner.nextLine(); // Consumir el salto de línea
+            scanner.nextLine(); 
 
             if (efectivo >= monto) {
                 double cambio = efectivo - monto;
